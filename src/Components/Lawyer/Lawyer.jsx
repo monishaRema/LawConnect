@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const Lawyer = ( {lawyer}) => {
 
@@ -35,13 +36,11 @@ const Lawyer = ( {lawyer}) => {
             {registration}
           </p>
         </div>
-        <a
+        <Link to={`lawyer/${id}`}
           className="mt-5 block p-3 text-lg md:text-xl font-bold text-center transition ease-in-out duration-300 border bg-transparent text-green-500 hover:text-white hover:bg-green-500 w-full rounded-full"
-          href="/doctor/1"
-          data-discover="true"
         >
           View Details
-        </a>
+        </Link>
       </div>
     );
 };

@@ -3,6 +3,8 @@ import { createBrowserRouter } from "react-router";
 import RootLayout from "../Root/RootLayout";
 import Error from "../Pages/Error";
 import Home from "../Pages/Home";
+import LawyerDetails from "../Components/Lawyer/LawyerDetails";
+import ErrorLawyer from "../Components/ErrorLawyer";
 
 const routes = createBrowserRouter([
     {
@@ -19,6 +21,16 @@ const routes = createBrowserRouter([
                 },
                 element:<Home></Home>
 
+            },
+            {
+                path:'lawyer/:id',
+                errorElement:<ErrorLawyer></ErrorLawyer>,
+                loader:async()=>{
+                    const res = await fetch('/lawyer.json')
+                   return res.json()
+                 },
+                 element:<LawyerDetails></LawyerDetails>,
+                 
             }
         ]
         
