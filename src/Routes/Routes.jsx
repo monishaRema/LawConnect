@@ -4,7 +4,9 @@ import RootLayout from "../Root/RootLayout";
 import Error from "../Pages/Error";
 import Home from "../Pages/Home";
 import LawyerDetails from "../Components/Lawyer/LawyerDetails";
-import ErrorLawyer from "../Components/ErrorLawyer";
+import ErrorLawyer from "../Components/Lawyer/ErrorLawyer";
+import Bookings from "../Pages/Bookings";
+
 
 const routes = createBrowserRouter([
     {
@@ -31,6 +33,14 @@ const routes = createBrowserRouter([
                  },
                  element:<LawyerDetails></LawyerDetails>,
                  
+            },
+            {
+                path:'/my-bookings',
+                loader:async()=>{
+                    const res = await fetch('/lawyer.json')
+                   return res.json()
+                 },
+                element:<Bookings></Bookings>
             }
         ]
         

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLoaderData, useLocation, useParams } from 'react-router-dom';
+import { setDataToDB } from '../../Utility/Utility';
 
 const LawyerDetails = () => {
 
@@ -152,7 +153,12 @@ const LawyerDetails = () => {
                   and cooperation.
                 </span>
               </p>
-              <button className="block py-4 px-8 w-full font-bold text-lg md:text-xl rounded-full bg-green-500 text-white outline-0 border-0 hover:bg-green-600 transition ease-in-out duration-300 ">
+              <button
+              onClick={()=>{
+                setDataToDB(newId)
+              }}
+              
+              className="block py-4 px-8 w-full font-bold text-lg md:text-xl rounded-full bg-green-500 text-white outline-0 border-0 hover:bg-green-600 transition ease-in-out duration-300 ">
                 Book Appointment Now
               </button>
             </div>
