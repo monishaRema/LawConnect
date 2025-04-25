@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image": "https://img.freepik.com/free-photo/young-doctor-with-tablet_23-2147648675.jpg",
+      "image": "https://img.freepik.com/free-photo/front-view-business-woman-wearing-glasses_23-2148692775.jpg",
       "name": "Adv. Sarah Mitchell",
       "education": {
         "field": "JD, LLM",
@@ -16,7 +16,7 @@
     },
     {
       "id": 2,
-      "image": "https://img.freepik.com/free-photo/front-view-male-doctor-medical-suit-wearing-mask-due-covid-white-wall-illness-covid-pandemic-virus-disease_140725-67349.jpg",
+      "image": "https://img.freepik.com/free-photo/lawyer-talking_23-2147984039.jpg",
       "name": "Adv. James Carter",
       "education": {
         "field": "JD",
@@ -31,7 +31,7 @@
     },
     {
       "id": 3,
-      "image": "https://img.freepik.com/free-photo/young-female-doctor-white-medical-suit-with-stethoscope-white-protective-mask-writing-down-notes-white_140725-16508.jpg",
+      "image": "https://img.freepik.com/free-photo/happy-young-businesswoman-writing-clipboard-with-pen_23-2147972827.jpg",
       "name": "Adv. Anjali Deshmukh",
       "education": {
         "field": "LLB, LLM",
@@ -46,7 +46,7 @@
     },
     {
       "id": 4,
-      "image": "https://img.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg",
+      "image": "https://img.freepik.com/free-photo/arrogant-handsome-young-businessman-adjusting-tie_1262-4677.jpg",
       "name": "Adv. Mahmudul Hassan",
       "education": {
         "field": "LLB, LLM",
@@ -61,7 +61,7 @@
     },
     {
       "id": 5,
-      "image": "https://img.freepik.com/free-psd/doctor-preparing-routine-medical-check_23-2150493256.jpg",
+      "image": "https://img.freepik.com/free-photo/short-haired-man-business-suit-carrying-two-registers_549566-318.jpg",
       "name": "Adv. Mario Gonzalez",
       "education": {
         "field": "JD",
@@ -76,7 +76,7 @@
     },
     {
       "id": 6,
-      "image": "https://img.freepik.com/free-photo/front-view-young-female-doctor-white-medical-suit-with-stethoscope-smiling-white_140725-16521.jpg",
+      "image": "https://img.freepik.com/free-photo/smiley-business-woman-writing-clipboard_23-2148480427.jpg",
       "name": "Adv. Sabrina Islam",
       "education": {
         "field": "LLB",
@@ -91,7 +91,7 @@
     },
     {
       "id": 7,
-      "image": "https://img.freepik.com/free-photo/doctor-smiling-offering-hand_23-2148075683.jpg",
+      "image": "https://img.freepik.com/free-photo/modern-office-composition-with-businessman_23-2147900145.jpg",
       "name": "Adv. Tanvir Ahmed",
       "education": {
         "field": "LLB, PGDL",
@@ -106,7 +106,7 @@
     },
     {
       "id": 8,
-      "image": "https://img.freepik.com/free-photo/front-view-young-female-doctor-white-medical-suit-with-blue-stethoscope-smiling_140725-17948.jpg",
+      "image": "https://img.freepik.com/free-photo/side-view-smiley-female-judge-with-gavel_23-2148453378.jpg",
       "name": "Adv. Julia Fernandez",
       "education": {
         "field": "JD",
@@ -121,7 +121,7 @@
     },
     {
       "id": 9,
-      "image": "https://img.freepik.com/free-photo/young-female-doctor-white-medical-suit-with-stethoscope-white_140725-16514.jpg",
+      "image": "https://img.freepik.com/free-photo/middle-aged-business-woman-her-office-smart-woman_482257-25807.jpg",
       "name": "Adv. Nabila Yasmin",
       "education": {
         "field": "LLB, LLM",
@@ -136,7 +136,7 @@
     },
     {
       "id": 10,
-      "image": "https://img.freepik.com/free-photo/doctor-with-his-arms-crossed-white-background_1368-5790.jpg",
+      "image": "https://img.freepik.com/free-photo/businessman-formal-wear-professional-corporate-concept_53876-71166.jpg",
       "name": "Adv. Adnan Rahman",
       "education": {
         "field": "LLB",
@@ -151,7 +151,7 @@
     },
     {
       "id": 11,
-      "image": "https://img.freepik.com/free-photo/front-view-male-doctor-medical-suit-wearing-mask-against-covid-splash-white-wall-virus-covid-illness-disease-pandemic_140725-67261.jpg",
+      "image": "https://img.freepik.com/free-photo/portrait-happy-smiling-business-woman-with-black-folder-isolated-white-wall_231208-8620.jpg",
       "name": "Adv. Mehnaz Rahimi",
       "education": {
         "field": "LLB",
@@ -166,7 +166,7 @@
     },
     {
       "id": 12,
-      "image": "https://img.freepik.com/free-photo/front-view-doctor-with-stethoscope-smiling_23-2148728418.jpg",
+      "image": "https://img.freepik.com/free-photo/happy-business-woman-using-tablet_23-2148095693.jpg",
       "name": "Adv. Farhana Alam",
       "education": {
         "field": "LLB",
@@ -181,7 +181,7 @@
     },
     {
       "id": 13,
-      "image": "https://img.freepik.com/free-photo/young-handsome-doctor-medical-robe-with-stethoscope_176420-28227.jpg",
+      "image": "https://img.freepik.com/free-photo/closeup-smiling-business-leader-sitting-table_1262-4841.jpg",
       "name": "Adv. Rezaul Karim",
       "education": {
         "field": "LLB, LLM",
@@ -196,7 +196,7 @@
     },
     {
       "id": 14,
-      "image": "https://img.freepik.com/free-photo/young-male-doctor-white-coat-glasses-standing-hospital-corridor_114579-9741.jpg",
+      "image": "https://img.freepik.com/free-photo/smiling-young-pleased-businessman-offering-book_23-2148113015.jpg",
       "name": "Adv. Amit Roy",
       "education": {
         "field": "LLB",
@@ -211,7 +211,7 @@
     },
     {
       "id": 15,
-      "image": "https://img.freepik.com/free-photo/portrait-young-doctor-with-hands-pocket_23-2148325561.jpg",
+      "image": "https://img.freepik.com/free-photo/medium-shot-woman-working-as-lawyer_23-2151152095.jpg",
       "name": "Adv. Tania Rahman",
       "education": {
         "field": "LLB, Bar-at-Law",

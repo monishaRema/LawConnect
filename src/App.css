@@ -2,6 +2,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+
 body{
     font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: #EFEFEF;
@@ -47,4 +48,9 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.bannerBg{
+  background:url('../src/assets/banner-img-1.png');
+  background-position: center;
+  background-size: cover;
 }

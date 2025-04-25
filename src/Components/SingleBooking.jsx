@@ -1,4 +1,5 @@
 import React from 'react';
+import { toast, Zoom } from 'react-toastify';
 
 
 const SingleBooking = ({lawyer,cancelBooking}) => {
@@ -22,7 +23,21 @@ const SingleBooking = ({lawyer,cancelBooking}) => {
         </div>
         <div className="text-center mt-12 border-t border-gray-400 border-dashed ">
           <button
-          onClick={()=>cancelBooking(lawyer.id)}
+          onClick={()=>{
+            cancelBooking(lawyer.id)
+
+            toast.error(`You have cancelled appointment with ${lawyer.name}`, {
+              position: "top-right",
+              autoClose: 3000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "light",
+              transition: Zoom,
+              });
+          }}
           
           className="w-full inline-block py-3 px-8 text-lg md:text-xl font-bold text-center mt-5 border bg-transparent text-red-500 rounded-full transition ease-in-out duration-300 hover:text-white hover:bg-red-500">
             Cancel Appointment

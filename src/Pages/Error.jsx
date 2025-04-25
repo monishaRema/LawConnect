@@ -9,7 +9,7 @@ const Error = () => {
         <div className="my-container">
           <div className="error-page text-center">
             <div className="img-box max-w-[600px] mx-auto rounded-2xl mb-5 overflow-hidden p-10 bg-white">
-              <img className="max-w-full" alt="image" />
+              <img className="max-w-full" alt="image" src={'https://media.istockphoto.com/id/1404059706/vector/website-page-not-found-error-404-oops-worried-robot-character-peeking-out-of-outer-space.jpg?s=612x612&w=0&k=20&c=DvPAUof9UsNuNqCJy2Z7ZLLk75qDA3bbLXOOW_50wAk='}/>
             </div>
             <h1 className="text-red-400 text-4xl mt-10">Page Not Found</h1>
             <p className="mt-3 mb-10 text-lg text-black">

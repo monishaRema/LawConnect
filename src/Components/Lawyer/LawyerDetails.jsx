@@ -1,10 +1,10 @@
 import React from 'react';
-import { useLoaderData, useLocation, useParams } from 'react-router-dom';
+import { useLoaderData, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { setDataToDB } from '../../Utility/Utility';
 
 const LawyerDetails = () => {
 
-
+   const navigate = useNavigate()
     const allLawyer = useLoaderData()
     const location =useLocation()
     const locationId=location.pathname.split('/')[2]
@@ -155,7 +155,7 @@ const LawyerDetails = () => {
               </p>
               <button
               onClick={()=>{
-                setDataToDB(newId)
+                setDataToDB(newId,name,navigate)
               }}
               
               className="block py-4 px-8 w-full font-bold text-lg md:text-xl rounded-full bg-green-500 text-white outline-0 border-0 hover:bg-green-600 transition ease-in-out duration-300 ">
