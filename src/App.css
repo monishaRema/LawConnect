@@ -37,10 +37,10 @@ body{
 }
 
 .navbtn.active, .navbtn:active{
-  color: #176AE5;
+  color: #0EA106;
   border:0;
   border-radius: 0;
-  border-bottom: 3px solid #176AE5;
+  border-bottom: 3px solid #0EA106;
   background-color: transparent;
 }
 .flex-center{

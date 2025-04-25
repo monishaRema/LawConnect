@@ -1,0 +1,28 @@
+import React from "react";
+import { createBrowserRouter } from "react-router";
+import RootLayout from "../Root/RootLayout";
+import Error from "../Pages/Error";
+import Home from "../Pages/Home";
+
+const routes = createBrowserRouter([
+    {
+        path:'/',
+        errorElement:<Error></Error>,
+        element:<RootLayout></RootLayout>,
+        children:[
+            {
+                index:true,
+                path:'/',
+                loader:async()=>{
+                   const res = await fetch('lawyer.json')
+                  return res.json()
+                },
+                element:<Home></Home>
+
+            }
+        ]
+        
+    }
+])
+
+export default routes
